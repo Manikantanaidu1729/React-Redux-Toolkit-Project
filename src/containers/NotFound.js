@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Navigate } from "react-router-dom";
 
 const NotFound = () => {
-  const [redirect, setRedirect] = useState(true);
+  const [redirect] = useState(true);
   return (
     <div>
       {
